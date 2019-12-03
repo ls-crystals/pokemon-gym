@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex</title>
+  <link rel="icon" href="https://www.shareicon.net/data/256x256/2015/08/24/90230_pokeball_512x512.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cs.css">
+  <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="heading">
+    <h1 id="Pokedex">PokéDex
+      <!-- <img id="ball" src="https://cdn76.picsart.com/209915339005202.gif?c256x256" alt="pokeball" height="50px" width="50px"> <img id="gameFreak" src="https://upload.wikimedia.org/wikipedia/sco/e/ea/Game_Freak_logo.png" height="65px" width="65px"></h1> -->
+      <div id="circle"></div>
+  </div>
+  <!-- <button type="button" id="generate-btn"> Team Builder</button> -->
+
+  <div class="grid-columns">
+    <div id="left">
+      <div id=profileImage>
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/311fa9e9-debc-4ca1-8c27-40576f23c4b7/d8mtjd8-6ab8770b-c25a-4653-a44c-1e7798707df9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzMxMWZhOWU5LWRlYmMtNGNhMS04YzI3LTQwNTc2ZjIzYzRiN1wvZDhtdGpkOC02YWI4NzcwYi1jMjVhLTQ2NTMtYTQ0Yy0xZTc3OTg3MDdkZjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.kjuLfY8kJW-HM7To7kazUSpt8-AD2R-XO2yjVWOdH_I" height='125px' width='125px' alt="">
+        <div id="map">
+          <img id="Kanto"src="https://vignette.wikia.nocookie.net/pokemon-planet/images/7/78/Kanto.png/revision/latest?cb=20161018082440" height=360px width=360px alt="">
+        </div>
+        <button type="button" id="button" onclick="queryPokemonAPI()">Choose your team!</button>
+      </div>
+      <div id="trainerBox">
+        <div id="profileCircle"></div>
+        <P>NAME:</p>
+        <p>REGION: KANTO</p>
+        <p>BADGES: 8</p>
+
+
+      </div>
+    </div>
+
+
+
+    <div class="right">
+
+      <p id="div">Name:  </p>
+      <p id = 'div2'>HP: </p>
+      <p id = 'div3'>ATTACK: </p>
+      <p id = 'div4'>DEFENSE: </p>
+      <p id = 'div5'>ABILITY:</p>
+      <p id = 'div6'>SPRITE:</p>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="bottom">
+    <div id="halfCircle"></div>
+  </div>
+
+
+
+
+
+  <script type="text/javascript" src="js.js"></script>
+
+</body>
+
+</html>

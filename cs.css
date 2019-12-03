@@ -1,0 +1,178 @@
+body{
+  margin: 0;
+  background: rgb(16,93,107);
+}
+/* PokeBall framework */
+
+.heading{
+  position: absolute;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  box-shadow: 6px 6px 9px black;
+  width: 100%;
+  height: 20vh;
+  background: rgb(178,17,0);
+  z-index: 100;
+}
+
+.heading{
+    background:rgb(178,17,0);
+
+    -webkit-animation: expand 7s;
+}
+
+@-webkit-keyframes expand{
+    0%{height:50vh}
+    100%{height:20vh}
+}
+
+
+
+
+.bottom{
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  width: 100%;
+  height: 20vh;
+  background-color: white;
+  position: absolute;
+  bottom: 0vh;
+  box-shadow: 5px -3px 9px black;
+  z-index: 99;
+}
+
+
+.bottom{
+    background: white;
+
+    -webkit-animation: expand 7s;
+}
+
+@-webkit-keyframes expand{
+    0%{height:50vh}
+    100%{height:20vh}
+}
+
+
+#circle{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    box-shadow: 4px 5px 9px black;
+    border-radius: 50%;
+    margin-left: 44.3%;
+    margin-top: -33px;
+    z-index: 100;
+
+-webkit-animation-name: circle;
+  -webkit-animation-duration: 4s;
+
+  animation-name: circle;
+  animation-duration: 7s;
+
+}
+
+
+
+
+@keyframes circle {
+  0%   { top:50vh;}
+
+  100% {  top:17vh;}
+}
+
+#halfCircle{
+  position: absolute;
+  margin-left: 46.7%;
+  height:50px;
+  width:100px;
+  border-radius: 0 0 90px 90px;
+  background: lightslategray;
+  box-shadow: inset 0px -13px 19px  black;
+}
+
+#Pokedex{
+  letter-spacing: 3px;
+  font-family: 'Press Start 2P', cursive;
+  padding-top: 61px;
+  font-size: 30px;
+  padding-left: 23.5px;
+}
+
+/* Grid inside of the PokeBall. */
+
+.grid-columns{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  position: absolute;
+  top: 129px;
+  height: 53vh;
+  width: 100%;
+}
+
+.right{
+  position: relative;
+  z-index: 98;
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: rgb(120, 245, 62);
+  font-size: 20px;
+  letter-spacing: 2.39px;
+  text-transform: uppercase;
+  padding: 40px;
+  padding-top: 51px;
+}
+
+/* Trainers information on the left side of the PokeBall. */
+
+#profileImage{
+  padding: 5%;
+  padding-top: 11%;
+}
+
+#profileCircle{
+  border-radius: 50%;
+  background-color: white;
+  z-index: 1;
+}
+
+#trainerBox{
+  letter-spacing: 2px;
+  padding-left: 13%;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 20px;
+  color: rgb(120, 245, 62);
+}
+
+#button{
+  position: absolute;
+  left: 435px;
+  top: 35px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  background-color: rgb(120, 245, 62);
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  padding: 1%;
+}
+
+#button:hover {
+  background-color: red;
+}
+
+
+#map{
+  position: absolute;
+  left: 270px;
+  top: 116px;
+  width: 200px;
+  height: 200px;
+  overflow-x: scroll;
+  border-radius:25px;
+}
+© 2019 GitHub, Inc.
