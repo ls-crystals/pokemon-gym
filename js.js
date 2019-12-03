@@ -97,3 +97,9 @@ queryPokemonAPI = async() => {
       return this.listPokemon
     }
   }
+
+
+trainer1 = new Trainer('Julian')
+trainer2 = new Trainer('fredlyne')
+trainer3 = new Trainer('crystal')
+trainer4 = new Trainer('issac')
